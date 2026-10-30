@@ -6,7 +6,7 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <header className="navbar">
       <NavLink to="/" className="brand">
         Oak & Ink
       </NavLink>
