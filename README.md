@@ -174,8 +174,8 @@ Vitest and React Testing Library are planned for frontend testing.
 ## 🗺️ Development Roadmap
 
 - [x] Initialize React + Vite project
-- [ ] Configure Tailwind CSS and shadcn/ui
-- [ ] Establish design tokens and typography
+- [x] Configure Tailwind CSS and shadcn/ui
+- [x] Establish design tokens and typography
 - [ ] Build responsive application layout
 - [ ] Implement Home page
 - [ ] Build reusable quote components
