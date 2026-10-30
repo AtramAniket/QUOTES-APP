@@ -64,3 +64,19 @@
 .main-content {
   flex: 1;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 2rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
