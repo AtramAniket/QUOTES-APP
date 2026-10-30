@@ -1,7 +1,20 @@
+import { Outlet } from "react-router";
+
+import Navbar from "../Components/Layouts/Navbar";
+import Footer from "../Components/Layouts/Footer";
+
 const AppLayout = () => {
   return (
-    <div>AppLayout</div>
-  )
-}
+    <>
+      <Navbar />
 
-export default AppLayout
+      <main>
+        <Outlet />
+      </main>
+
+      <Footer />
+    </>
+  );
+};
+
+export default AppLayout;
