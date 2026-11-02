@@ -111,5 +111,86 @@
 }
 
 .content-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
   padding-inline: 1.5rem;
 }
+
+.quote-card__action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.quote-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  background-color: var(--color-surface);
+}
+
+.quote-card__text {
+  margin: 0;
+  font-family: "DM Serif Display", serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-text);
+}
+
+.quote-card__author {
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.quote-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.quote-feed {
+  margin-top: 2rem;
+}
+
+.quote-feed__heading {
+  margin: 0 0 1rem;
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.quote-feed__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .quote-feed__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .quote-feed__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+

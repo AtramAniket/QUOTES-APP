@@ -1,4 +1,6 @@
+import QuoteFeed from "../Components/Quotes/QuoteFeed"
 import ContentContainer from "../Components/Layouts/ContentContainer";
+import MoodFilters from "../Components/Quotes/MoodFilters";
 
 const HomePage = () => {
   return (
@@ -8,6 +10,8 @@ const HomePage = () => {
         <blockquote className="featured-quote__text">"The secret of getting ahead is getting started"</blockquote>
         <p className="featured-quote__author">Mark Twain</p>
       </section>
+
+      <QuoteFeed />
     </ContentContainer>
   );
 };

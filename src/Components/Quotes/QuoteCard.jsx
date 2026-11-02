@@ -4,8 +4,8 @@ const QuoteCard = ({ quote, author }) => {
       <blockquote className="quote-card__text">"{quote}"</blockquote>
       <p className="quote-card__author">{author}</p>
       <div className="quote-card__actions">
-        <button type="button">Save</button>
-        <button type="button">Share</button>
+        <button className="quote-card__action" type="button">Save</button>
+        <button className="quote-card__action" type="button">Share</button>
       </div>
     </article>
   );

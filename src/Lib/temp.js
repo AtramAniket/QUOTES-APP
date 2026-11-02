@@ -30,3 +30,12 @@ export const quotes = [
     author: "Buddha",
   },
 ];
+
+export const moods = [
+  "All",
+  "Motivation",
+  "Wisdom",
+  "Love",
+  "Life",
+  "Happiness",
+];
